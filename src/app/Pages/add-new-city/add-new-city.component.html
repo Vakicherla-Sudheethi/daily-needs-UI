@@ -1,0 +1,22 @@
+<p>add-new-city works!</p>
+<div class="container">
+    <table class="table">
+        <tr>
+            <td>City ID</td>
+            <td>
+                <input type="text" [(ngModel)]="city.cityId">
+            </td>
+        </tr>
+        <tr>
+            <td>City Name</td>
+            <td>
+                <input type="text" [(ngModel)]="city.cityName">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button (click)="addCity()">Add</button>
+            </td>
+        </tr>
+    </table>
+</div>
